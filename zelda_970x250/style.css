@@ -1,0 +1,312 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  -ms-box-sizing: border-box;
+}
+body, html {
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  width: 970px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#embers {
+  width: 970px;
+  height: 250px;
+}
+
+.ember {
+  width: 24px;
+  height: 24px;
+  background-image: url('ember.png');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}
+
+.beamhaze {
+  background-image: url('beamhaze.png');
+  background-size: 100% 100%;
+}
+
+.flash {
+  background-color: white;
+}
+
+.text1 {
+  background-image: url('text1.png');
+}
+
+.pegi {
+  background-image: url('pegi.png');
+}
+
+.triforceblack {
+  background-image: url('triforceblacktriangle.png');
+}
+
+.triforce {
+  background-image: url('triforce.png');
+}
+
+.triforceglow {
+  background-image: url('triforceglow.png');
+}
+
+.zeldalogo {
+  top: -2px;
+  left: 90px;
+  background-image: url('zeldalogo.png');
+}
+
+.scrollbg {
+  position: absolute;
+  width: 970px;
+  height: 350px;
+  background-image: url('scrollbg.jpg');
+  background-size: contain;
+}
+
+.beams1 {
+  background-image: url('beams1.png');
+}
+
+.beams2 {
+  background-image: url('beams2.png');
+}
+
+.beams3 {
+  background-image: url('beams3.png');
+}
+
+.beams4 {
+  background-image: url('beams4.png');
+}
+
+#container {
+  position: absolute;
+  overflow: hidden;
+  width: 970px;
+  height: 250px;
+}
+
+.endframecontainer {
+  opacity: 0;
+}
+
+#video {
+  position: absolute;
+  top: 10px;
+  left: 310px;
+  width: 324px;
+  height: 183px;
+}
+
+#container {
+  background-color: black;
+}
+
+#outer_ring {
+  background-image: url('outer_ring.png');
+}
+
+#inner_ring {
+  background-image: url('inner_ring.png');
+}
+
+#small_rays {
+  position: absolute;
+  top: -175px;
+  width: 970px;
+  height: 594px;
+  background-image: url('small_rays.png');
+  background-repeat: no-repeat;
+}
+
+#large_rays {
+  position: absolute;
+  top: -477px;
+  left: -65px;
+  width: 1117px;
+  height: 1186px;
+  background-image: url('large_rays.png');
+  background-repeat: no-repeat;
+}
+
+#exit1 {
+  position: absolute;
+  width: 970px;
+  height: 250px;
+  cursor: pointer;
+  opacity: 0;
+  background-color: black;
+}
+
+#exit2 {
+  position: absolute;
+  top: 192px;
+  left: 474px;
+  width: 166px;
+  height: 53px;
+  cursor: pointer;
+  opacity: 0;
+  background-color: black;
+}
+
+#bg_castle {
+  position: absolute;
+  top: -174px;
+  left: 0;
+  width: 970px;
+  height: 424px;
+  background-image: url('bg_castle.jpg');
+  background-repeat: no-repeat;
+}
+
+#logo_small {
+  background-image: url('logo_small.png');
+}
+
+.release_date {
+  background-image: url('release_date.png');
+}
+
+.outnow {
+  background-image: url('outnow.png');
+}
+
+#top_bottom_borders {
+  background-image: url('top_bottom_borders.png');
+}
+
+#single_online_play {
+  background-image: url('single_online_play.png');
+}
+
+#video_box {
+  background-image: url('video_box.png');
+}
+
+#legal {
+  background-image: url('legal.png');
+}
+
+#hero_rays1,
+#hero_rays2 {
+  position: absolute;
+  top: -129px;
+  left: 3px;
+  width: 1133px;
+  height: 481px;
+  background-image: url('hero_rays.png');
+  background-repeat: no-repeat;
+}
+
+#hero4 {
+  background-image: url('hero4.png');
+}
+
+#hero5 {
+  background-image: url('hero5.png');
+}
+
+#hero6 {
+  background-image: url('hero6.png');
+}
+
+#hero4_glow {
+  background-image: url('hero4_glow.png');
+}
+
+#hero5_glow {
+  background-image: url('hero5_glow.png');
+}
+
+#hero6_glow {
+  background-image: url('hero6_glow.png');
+}
+
+#text_powers {
+  background-image: url('text_powers.png');
+}
+
+#text_triple_power {
+  background-image: url('text_triple_power.png');
+}
+
+#text_currents {
+  background-image: url('text_currents.png');
+}
+
+#text_hearts {
+  background-image: url('text_hearts.png');
+}
+
+#learn_more {
+  background-image: url('learn_more.png');
+}
+
+.buynow {
+  position: absolute;
+  top: 192px;
+  left: 474px;
+  width: 166px;
+  height: 53px;
+  background-image: url('buynow.png');
+  background-repeat: no-repeat;
+}
+
+.preorder {
+  position: absolute;
+  top: 192px;
+  left: 474px;
+  width: 166px;
+  height: 53px;
+  background-image: url('preorder.png');
+  background-repeat: no-repeat;
+}
+
+
+.end_ringscontainer {
+  opacity: 0;
+}
+
+#end_inner_ring {
+  background-image: url('inner_ring.png');
+  left: 330px;
+}
+
+#end_outer_ring {
+  background-image: url('outer_ring.png');
+  left: 330px;
+}
+
+
+#end_rays1,
+#end_rays2 {
+  position: absolute;
+  top: -129px;
+  left: -72px;
+  width: 1133px;
+  height: 481px;
+  background-image: url('hero_rays.png');
+  background-repeat: no-repeat;
+}
+
+
+.end_characters {
+  background-image: url('end_characters.png');
+}
+
+#end_characters_glow {
+  background-image: url('end_characters_glow.png');
+}
+
